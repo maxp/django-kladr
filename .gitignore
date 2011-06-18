@@ -1,0 +1,37 @@
+#
+#	generic gitignore
+#
+
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+*.old
+.DS_Store
+*.pyc
+*.pyo
+_wrk/*
+
+# ide
+.settings
+.classpath
+.project
+.manager
+.pydevproject
+.idea
+# building
+#target
+#build
+#null
+#tmp*
+
+# scm
+.svn
+.CVS
+.hg*
+
+# syntax: regexp
+# ^\.pc/
+
+#.
